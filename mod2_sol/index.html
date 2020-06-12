@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Positioning Elements</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+div#container {
+  background-color: #00FFFF;
+  position:relative;
+  margin:auto;
+  height: auto;
+}
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.contentin{
+  padding-top: 20px;
+  margin: 0;
+}
+
+p.titl{
+  position: absolute;
+  margin-top: 0px;
+  right: 0px;
+  height: auto;
+  width: auto;
+  padding: 2px;
+  border: 1px solid black;
+  background-color: #A52A2A;
+  color: white;
+  clear: both;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+    background-color: #ff00ff;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid green;
+    position: relative;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 30%;
+    margin: 20px;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  #it3{
+    float: right;
+    border: 1px solid green;
+    position: relative;
+    width: 30%;
+    margin: 20px;
+  }
+  #it2{
+    position: fixed;
+    right: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+    position: relative;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    margin: 15px;
+    width: 45%;
+
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 96%;
+    margin-top: 15px;
+  }
+  #it2{
+    float: right;
+    border: 1px solid green;
+    position: relative;
+    width: 45%;
+    margin: 15px;
+
+  }
+}
+
+
+</style>
+</head>
+<body>
+<h1>Positioning Elements</h1>
+<h1>Responsive Layout</h1>
+<div id='container'>
+<div class="row">
+  <div class="col-lg-4 col-md-6"><p class="titl">Item 1</p><p class="contentin">The content of the thing here abhima fpiae aoiefe aefoina efonejnfs jnwofinlks fdjkw efjwneonfsmdf jwnef</p></div>
+  <div class="col-lg-4 " id='it2'><p>Item 2</p></div>
+  <div class="col-md-12" id='it3'><p>Item 3</p></div>
+</div>
+</div>
+
+</body>
+</html>
+</body>
+</html>
+
+
+
+
