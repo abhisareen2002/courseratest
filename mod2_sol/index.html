@@ -2,13 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Positioning Elements</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 2 Test</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+</style>
+
 <style>
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 h1 {
   margin-bottom: 15px;
+  margin-top: 1em;
 }
 
 div#container {
@@ -16,7 +24,11 @@ div#container {
   position:relative;
   margin:auto;
   height: auto;
+  margin-top: 2em;
 }
+.incol{
+  background-color: #4f4f4f;
+  color: white;
 }
 
 h1 {
@@ -24,7 +36,10 @@ h1 {
 }
 
 .contentin{
-  padding-top: 20px;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 10px;
   margin: 0;
 }
 
@@ -39,142 +54,28 @@ p.titl{
   background-color: #A52A2A;
   color: white;
   clear: both;
+  padding:4px 15px 4px 15px;
 }
 
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-    background-color: #ff00ff;
+body{
+  font-family: 'Balsamiq Sans', cursive;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
-    position: relative;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 30%;
-    margin: 20px;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-  #it3{
-    float: right;
-    border: 1px solid green;
-    position: relative;
-    width: 30%;
-    margin: 20px;
-  }
-  #it2{
-    position: fixed;
-    right: 33.33%;
-  }
-}
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-    position: relative;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    margin: 15px;
-    width: 45%;
-
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    margin-right: 20px;
-    margin-left: 20px;
-    width: 96%;
-    margin-top: 15px;
-  }
-  #it2{
-    float: right;
-    border: 1px solid green;
-    position: relative;
-    width: 45%;
-    margin: 15px;
-
-  }
-}
-
-
+/*************************END OF CODE*****************************/
 </style>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
-<h1>Positioning Elements</h1>
-<h1>Responsive Layout</h1>
+<center>
+<h1>Our Menu</h1>
+</center>
 <div id='container'>
 <div class="row">
-  <div class="col-lg-4 col-md-6"><p class="titl">Item 1</p><p class="contentin">The content of the thing here abhima fpiae aoiefe aefoina efonejnfs jnwofinlks fdjkw efjwneonfsmdf jwnef</p></div>
-  <div class="col-lg-4 " id='it2'><p>Item 2</p></div>
-  <div class="col-md-12" id='it3'><p>Item 3</p></div>
+  <div class="col-lg-4 col-md-6 col-sm-12 incol"><p class="titl">Item 1</p><p class="contentin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet pulvinar ligula, in eleifend nisi. Ut porttitor nulla et lacinia ullamcorper. Vestibulum ut nisl in neque aliquet maximus commodo auctor ex. Quisque turpis velit, dapibus sit amet volutpat sit amet, vulputate at sem. In tempus, diam quis placerat eleifend, ante ligula viverra nibh, a tristique erat augue ut erat. Suspendisse fringilla quam neque, a mollis sapien maximus nec. Nulla.</p></div>
+  <div class="col-lg-4 col-sm-12 incol" id='it2' ><p class="titl">Item 2</p><p class="contentin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id lacus pulvinar, venenatis est quis, lacinia magna. Sed lobortis facilisis ex eget sollicitudin. Sed suscipit dui sit amet magna pellentesque tincidunt. Aliquam vehicula sapien vel dolor convallis, ut fringilla turpis vestibulum. Interdum et malesuada fames ac ante ipsum primis in.</p></div>
+  <div class="col-md-12 col-sm-12 incol" id='it3' ><p class="titl">Item 3</p><p class="contentin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis ornare odio ut lacinia. Quisque non egestas arcu, non molestie dui. Cras sit amet odio egestas purus congue convallis ac eu velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum nisl vel est gravida mollis. Nulla sed lacus lectus. Suspendisse a risus efficitur, porta libero ut, laoreet odio. Cras ut odio accumsan, malesuada lacus et, molestie urna. Fusce non feugiat nisl. Etiam sollicitudin ipsum sit amet est vestibulum sodales. Fusce tempus efficitur iaculis. Pellentesque ac tempus ipsum, quis.</p></div>
 </div>
 </div>
-
 </body>
 </html>
 </body>
