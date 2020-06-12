@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
+[module 2 test](/mod2_sol)
 
 You can use the [editor on GitHub](https://github.com/abhisareen2002/courseratest/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
