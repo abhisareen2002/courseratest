@@ -51,7 +51,6 @@
   }
   #it3{
     float: right;
-    border: 1px solid green;
     position: relative;
     width: 30%;
     margin: 20px;
@@ -113,7 +112,6 @@
   }
   #it2{
     float: right;
-    border: 1px solid green;
     position: relative;
     width: 45%;
     margin: 15px;
